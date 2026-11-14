@@ -1,0 +1,29 @@
+{
+  "weights": {
+    "lgbm": 2.6328614111845587e-05,
+    "cat": 0.5957670053916954,
+    "xgb": 0.40420666599419275
+  },
+  "temperature": 0.99228515625,
+  "best_params": {
+    "cat": {
+      "depth": 4,
+      "l2_leaf_reg": 7.348118405270449,
+      "learning_rate": 0.08
+    },
+    "xgb": {
+      "max_depth": 3,
+      "min_child_weight": 4,
+      "subsample": 0.6491887348187386,
+      "colsample_bytree": 0.9772690872758857,
+      "reg_lambda": 0.00831366188561216,
+      "learning_rate": 0.05
+    }
+  },
+  "final": {
+    "logloss": 0.809969032797728,
+    "macro_f1": 0.3863230114394165,
+    "class2_recall": 0.9934582743988685,
+    "auc_ovr": 0.5944786794179656
+  }
+}
